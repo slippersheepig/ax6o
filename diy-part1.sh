@@ -16,3 +16,5 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 echo 'src-git small8 https://github.com/kenzok8/small-package' >>feeds.conf.default
+echo 'src-git zeropenwrt https://github.com/mwarning/zerotier-openwrt' >>feeds.conf.default
+git clone https://github.com/rufengsuixing/luci-app-zerotier.git package/luci-app-zerotier
